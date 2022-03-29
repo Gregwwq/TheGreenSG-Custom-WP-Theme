@@ -15,7 +15,7 @@
       </div>
     </div>
     <div class="change-btn-wrap">
-      <button class="change-btn" type="button">JOIN US IN CHANGE</button>
+      <button class="change-btn" type="button">Testing</button>
     </div>
   </div>
 </div>
