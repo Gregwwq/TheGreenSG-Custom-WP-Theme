@@ -1,5 +1,10 @@
 <?php get_header(); ?>
 
+<!--CSS-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link href="style.css" rel="stylesheet">
+<body>
+<!--START CODE-->
 <div class="home-top">
   <div class="home-top-img">
     <div class="home-top-shade"></div>
@@ -60,5 +65,69 @@
     </div>
   </div>
 </div>
+<br><br><br>
+<!--People introduction-->
+<div class="bg-light">
+<div class="team text-center py-0 py-lg-5">
+        <div class="container">
+            <div class="header my-5">
+                <!-- Header -->
+                <h2 class="text-center">The board members:</h2>
+                <!-- Description -->
+                <p class="text-muted">Meet the people behind GreenSG</p>
+            </div>
+            <div class="row">
+                <!-- Person 1 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="img-block mb-5 px-5 px-lg-2"> <!--can change aspect ratio!-->
+                        <img src=""  alt="Picture of Person 1">
+                        <div class="content mt-2">
+                            <!-- Name -->
+                            <h5 class="mt-3">Person 1</h5>
+                            <!-- Title -->
+                            <p class="text-muted">CEO of GreenSG</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Person 2 -->
+                 <div class="col-md-6 col-lg-3">
+                    <div class="img-block mb-5 px-5 px-lg-2"> <!--can change aspect ratio!-->
+                        <img src=""  alt="Picture of Person 1">
+                        <div class="content mt-2">
+                            <!-- Name -->
+                            <h5 class="mt-3">Person 2</h5>
+                            <!-- Title -->
+                            <p class="text-muted">Secretary of GreenSG</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Person 3 -->
+                 <div class="col-md-6 col-lg-3">
+                    <div class="img-block mb-5 px-5 px-lg-2"> <!--can change aspect ratio!-->
+                        <img src=""  alt="Picture of Person 1">
+                        <div class="content mt-2">
+                            <!-- Name -->
+                            <h5 class="mt-3">Person 3</h5>
+                            <!-- Title -->
+                            <p class="text-muted">CTO of GreenSG</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Person 4 -->
+                 <div class="col-md-6 col-lg-3">
+                    <div class="img-block mb-5 px-5 px-lg-2"> <!--can change aspect ratio!-->
+                        <img src=""  alt="Picture of Person 1">
+                        <div class="content mt-2">
+                            <!-- Name -->
+                            <h5 class="mt-3">Person 4</h5>
+                            <!-- Title -->
+                            <p class="text-muted">Director of GreenSG</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
 
+</body>
 <?php get_footer(); ?>
