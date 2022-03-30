@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="change-btn-wrap">
-      <button class="change-btn" type="button">JOIN US IN CHANGE</button>
+      <button class="change-btn" type="button">Testing</button>
     </div>
   </div>
 </div>
@@ -30,7 +30,7 @@
       Our Vision
     </div>
     <div id="vis-body">
-      To build a community of shared learning and action to help protect the balance of human life with the natural world, so that all can thrive in it.
+     Testing To build a community of shared learning and action to help protect the balance of human life with the natural world, so that all can thrive in it.
     </div>
   </div>
   <div class="mission">
