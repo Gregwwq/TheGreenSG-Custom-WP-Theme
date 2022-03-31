@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<?php include 'navbar.php';?>
 <body>
   <!--START CODE-->
 
