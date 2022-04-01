@@ -1,10 +1,10 @@
-<?php get_header(); ?>
-<?php include 'navbar.php';?>
 <body>
   <!--START CODE-->
+  <section>
+    <!-- NAVIGATION BAR (WP) -->
+    <?php get_header(); ?>
 
   <!-- LANDING PAGE -->
-  <section>
     <div class="home-top">
       <div class="home-top-img">
         <div class="home-top-shade"></div>
@@ -20,15 +20,15 @@
           </div>
         </div>
         <div class="change-btn-wrap">
-          <button class="change-btn" type="button">Testing</button>
+          <button class="change-btn" type="button">JOIN US IN CHANGE</button>
         </div>
       </div>
     </div>
   </section>
 
   <!-- PEOPLE INTRODUCTION -->
-  <section>
-    <div class="bg-light">
+  <!-- no need for section as bootstrap takes care of the height for us -->
+  <div class="bg-light">
       <div class="team text-center py-0 py-lg-5">
         <div class="container">
           <div class="header my-5">
@@ -55,7 +55,7 @@
             <div class="col-md-6 col-lg-3">
               <div class="img-block mb-5 px-5 px-lg-2">
                 <!--can change aspect ratio!-->
-                <img src="" alt="Picture of Person 1">
+                <img src="" alt="Picture of Person 2">
                 <div class="content mt-2">
                   <!-- Name -->
                   <h5 class="mt-3">Person 2</h5>
@@ -68,7 +68,7 @@
             <div class="col-md-6 col-lg-3">
               <div class="img-block mb-5 px-5 px-lg-2">
                 <!--can change aspect ratio!-->
-                <img src="" alt="Picture of Person 1">
+                <img src="" alt="Picture of Person 3">
                 <div class="content mt-2">
                   <!-- Name -->
                   <h5 class="mt-3">Person 3</h5>
@@ -81,7 +81,7 @@
             <div class="col-md-6 col-lg-3">
               <div class="img-block mb-5 px-5 px-lg-2">
                 <!--can change aspect ratio!-->
-                <img src="" alt="Picture of Person 1">
+                <img src="" alt="Picture of Person 4">
                 <div class="content mt-2">
                   <!-- Name -->
                   <h5 class="mt-3">Person 4</h5>
@@ -93,7 +93,6 @@
           </div>
         </div>
       </div>
-  </section>
 
   <!-- VISION AND MISSION -->
   <section>
@@ -143,12 +142,78 @@
 
   <!-- OUR WEBINARS -->
   <section>
-    <div class="web">
-      <div id="web-title">
-        Our Webinars
+    <div>
+      <div id="contents-wrapper-webinar">
+            <div class="information-left">
+              <div class="details-left">
+                <h1>Our Webinars</h1>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum
+
+                  <div class="more-btn-wrap">
+                    <button class="more-btn" type="button">More Details &#8594;</button>
+                  </div>
+              </div>
+            </div>
       </div>
     </div>
   </section>
+ 
+
+  <!-- ACTIVITIES WITH THE COMMUNITY -->
+  <section>
+    <div>
+      <div id="contents-wrapper-community">
+            <div class="information-right">
+              <div class="details-right">
+                <h1>Activities With The Community</h1>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum
+
+                  <div class="more-btn-wrap">
+                    <button class="more-btn" type="button">More Details &#8594;</button>
+                  </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- ACTIVITIES WITH THE YOUTH -->
+ <section>
+    <div>
+      <div id="contents-wrapper-youth">
+            <div class="information-left">
+              <div class="details-left">
+                <h1>Activities With The Youth</h1>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum
+
+                  <div class="more-btn-wrap">
+                    <button class="more-btn" type="button">More Details &#8594;</button>
+                  </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </section>
+ 
+  
 
   <!--END CODE-->
 </body>

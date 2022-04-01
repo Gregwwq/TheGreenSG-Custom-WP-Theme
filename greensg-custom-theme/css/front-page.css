@@ -63,18 +63,36 @@
   margin:auto;
 }
 
+.more-btn-wrap{
+  width:100%;
+  text-align:center;
+  margin-top:2rem;
+}
+
+.more-btn{
+  width:15rem;
+  height:3rem;
+  background-color:#375f44;
+  color:white;
+  border:none;
+  border-radius: 2rem;
+  font-size: large;
+  font-weight: 500;
+  margin:auto;
+}
+
+
 .vis-and-mis{
   position: absolute;
-  top:100%;
   background-image: url("../img/tree1.png");
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  height: 100%;
+  height: 96%;
 }
 
 .vision{
-  margin-top:8%;
+  margin-top:6%;
 }
 
 #vis-title{
@@ -131,6 +149,69 @@
   top: 200%;
 }
 
-/* #web-title{
-  color: #fff;
-} */
+section{
+  height: 100%;
+}
+
+
+/* SLANT DIVS */
+/* WEBINARS */
+#contents-wrapper-webinar{
+  height: 635px;
+  background-image: url("../img/web.jpg"); 
+}
+
+.information-left{
+  height: 635px;
+  padding: 60px 0;
+  background: linear-gradient(65deg, rgb(255, 255, 255) 50%, transparent 0%);
+  display: flex;
+}
+
+.details-left{
+  justify-content: center;
+  width: 40%;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: 3em;
+}
+
+.details-left h1{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+/* COMMUNITY */
+#contents-wrapper-community{
+  height: 635px;
+  background-image: url("../img/web.jpg"); 
+}
+
+.information-right{
+  height: 635px;
+  padding: 60px 0;
+  background: linear-gradient(-65deg, rgb(255, 255, 255) 50%, transparent 0%);
+  display: flex;
+}
+
+.details-right{
+  justify-content: center;
+  width: 40%;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-right: 3em;
+}
+
+.details-right h1{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* YOUTH */
+#contents-wrapper-youth{
+  height: 635px;
+  background-image: url("../img/web.jpg"); 
+}
