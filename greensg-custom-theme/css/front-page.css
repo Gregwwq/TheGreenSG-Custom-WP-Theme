@@ -23,7 +23,7 @@
 }
 
 .home-top{
-  height:100%;
+  height:100vh;
   color: black;
 }
 
@@ -63,36 +63,16 @@
   margin:auto;
 }
 
-.more-btn-wrap{
-  width:100%;
-  text-align:center;
-  margin-top:2rem;
-}
-
-.more-btn{
-  width:15rem;
-  height:3rem;
-  background-color:#375f44;
-  color:white;
-  border:none;
-  border-radius: 2rem;
-  font-size: large;
-  font-weight: 500;
-  margin:auto;
-}
-
-
 .vis-and-mis{
-  position: absolute;
   background-image: url("../img/tree1.png");
   background-size: cover;
   background-attachment: fixed;
-  width: 100%;
-  height: 96%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .vision{
-  margin-top:6%;
+  padding-top: 20vh;
 }
 
 #vis-title{
@@ -155,14 +135,34 @@ section{
 
 
 /* SLANT DIVS */
-/* WEBINARS */
-#contents-wrapper-webinar{
-  height: 635px;
-  background-image: url("../img/web.jpg"); 
+.contents-wrapper{
+  height: 50%;
+  background-attachment: fixed;
+  background-size: contain;
+  margin-bottom: 1rem;
 }
 
+.more-btn-wrap{
+  width:100%;
+  text-align:center;
+  margin-top:2rem;
+}
+
+.more-btn{
+  width:15rem;
+  height:3rem;
+  background-color:#375f44;
+  color:white;
+  border:none;
+  border-radius: 2rem;
+  font-size: large;
+  font-weight: 500;
+  margin:auto;
+}
+
+/* CONTENTS LEFT */
 .information-left{
-  height: 635px;
+  height: 100%;
   padding: 60px 0;
   background: linear-gradient(65deg, rgb(255, 255, 255) 50%, transparent 0%);
   display: flex;
@@ -182,15 +182,9 @@ section{
   padding-bottom: 20px;
 }
 
-
-/* COMMUNITY */
-#contents-wrapper-community{
-  height: 635px;
-  background-image: url("../img/web.jpg"); 
-}
-
+/* CONTENTS RIGHT */
 .information-right{
-  height: 635px;
+  height: 100%;
   padding: 60px 0;
   background: linear-gradient(-65deg, rgb(255, 255, 255) 50%, transparent 0%);
   display: flex;
@@ -209,9 +203,17 @@ section{
   text-align: center;
   padding-bottom: 20px;
 }
+/* WEBINARS */
+#webinars{
+  background-image: url("../img/web.jpg");
+}
 
-/* YOUTH */
-#contents-wrapper-youth{
-  height: 635px;
-  background-image: url("../img/web.jpg"); 
+/* COMMUNITY */
+#community{
+  background-image: url("../img/web.jpg");
+}
+
+/* YOUTHS */
+#youths{
+  background-image: url("../img/web.jpg");
 }
