@@ -9,6 +9,9 @@ Template Name: Contact
 <body>
   <!--START CODE-->
 
+  <!-- NAVIGATION BAR (WP) -->
+  <?php get_template_part("custom-sections/section", "navbar"); ?>
+
   <div>This is the contact page</div>
 
   <!--END CODE-->

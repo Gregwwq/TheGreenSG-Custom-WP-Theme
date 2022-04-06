@@ -10,7 +10,6 @@
         in reprehenderit in voluptate velit esse cillum dolore eu fugiat
         nulla pariatur. Excepteur sint occaecat cupidatat non proident,
         sunt in culpa qui officia deserunt mollit anim id est laborum
-
         <div class="more-btn-wrap">
           <button class="more-btn" type="button">More Details &#8594;</button>
         </div>

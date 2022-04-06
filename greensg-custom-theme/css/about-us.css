@@ -1,2 +1,120 @@
 /* CUSTOM CSS FOR THE ABOUT US TEMPLATE */
 
+.about-us-top{
+  height:100vh;
+  color: black;
+}
+
+.about-us-top-img{
+  position:absolute;
+  background-image: url("../img/ferns.jpg");
+  background-size: cover;
+  width:100%;
+  height:100%;
+  z-index: -2;
+}
+
+.about-us-top-shade{
+  position:absolute;
+  background-color: black;
+  opacity: 0.6;
+  height:100%;
+  width:100%;
+  z-index:-1
+}
+
+.about-us-intro{
+  display:block;
+  width:100%;
+  height:fit-content;
+  color: white;
+  margin-top:50vh
+}
+
+.about-us-intro #small-intro{
+  display:block;
+  margin:auto;
+  width:70%;
+  font-size: 2vh;
+}
+
+.about-us-intro #big-intro{
+  display:block;
+  margin:auto;
+  width:70%;
+  font-size:10vh;
+}
+
+.about-us{
+  width:100vw;
+  height:80vh;
+  background-color: #FBF7F7;
+  margin:none;
+}
+
+.about-us-title{
+  color:#5D4251;
+  font-size: 8vh;
+  width:60vw;
+  height:20vh;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10vh;
+  line-height: 20vh;
+}
+
+.about-us-seperator{
+  width:60vw;
+  height:3px;
+  background-color: black;
+  margin:0 auto 10vh auto;
+}
+
+.about-us-content{
+  color:black;
+  font-size: 2.5vh;
+  height:fit-content;
+  width:60%;
+}
+
+.about-us-img-wrapper{
+  width:100%;
+  text-align: right;
+}
+
+.about-us-img{
+  height:45vh;
+}
+
+.about-us-content-wrapper-outer{
+  position:relative;
+  width:100%;
+  height:50vh;
+  margin-left: 3vw;
+}
+
+.about-us-content-wrapper-inner{
+  position: absolute;
+  top:10%;
+  width:100%;
+  height:fit-content;
+}
+
+.join-us-btn-wrapper{
+  width:60%;
+  text-align:left;
+  height:fit-content;
+  margin-top:2rem;
+}
+
+.join-us-btn{
+  width:10rem;
+  height:2.5rem;
+  background-color:#44A463;
+  color:white;
+  border:none;
+  border-radius: 2rem;
+  font-size: large;
+  font-weight: 500;
+  margin:auto;
+}

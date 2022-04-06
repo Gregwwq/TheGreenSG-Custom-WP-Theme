@@ -1,7 +1,7 @@
 /* CUSTOM CSS FOR THE FRONT PAGE */
 
 .home-top-spacing{
-  height:100px;
+  height:25vh;
 }
 
 .home-top-img{
@@ -16,7 +16,7 @@
 .home-top-shade{
   position:absolute;
   background-color: black;
-  opacity: 0.4;
+  opacity: 0.5;
   height:100%;
   width:100%;
   z-index:-1
@@ -63,16 +63,29 @@
   margin:auto;
 }
 
+.vis-and-mis-wrapper-outer{
+  position: relative;
+  width:100%;
+  height:100%;
+}
+
+.vis-and-mis-wrapper-inner{
+  position: absolute;
+  top:12%;
+  width:100%;
+  height:fit-content;
+}
+
 .vis-and-mis{
-  background-image: url("../img/tree1.png");
+  background-color: #FBF7F7;
   background-size: cover;
   background-attachment: fixed;
   width: 100vw;
-  height: 100vh;
+  height: 600px;
 }
 
 .vision{
-  padding-top: 20vh;
+  padding-top: 0;
 }
 
 #vis-title{
@@ -210,10 +223,20 @@ section{
 
 /* COMMUNITY */
 #community{
-  background-image: url("../img/web.jpg");
+  background-image: url("../img/community.jpg");
 }
 
 /* YOUTHS */
 #youths{
-  background-image: url("../img/web.jpg");
+  background-image: url("../img/youths.jpg");
+}
+
+/* RESEARCH & WHITEPAPERS */
+#research{
+  background-image: url("../img/research.jpg");
+}
+
+/* ARTICLES */
+#articles{
+  background-image: url("../img/sus.jpg");
 }
