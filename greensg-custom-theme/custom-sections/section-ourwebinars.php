@@ -11,7 +11,7 @@
         nulla pariatur. Excepteur sint occaecat cupidatat non proident,
         sunt in culpa qui officia deserunt mollit anim id est laborum
         <div class="more-btn-wrap">
-          <button class="more-btn" type="button">More Details &#8594;</button>
+          <button class="more-btn" type="button" onclick="location.href=location.href+'/our-webinars';">More Details &#8594;</button>
         </div>
       </div>
     </div>
