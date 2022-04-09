@@ -1,0 +1,28 @@
+header{
+  position:absolute;
+  background: transparent;
+  width:100%;
+  height:fit-content;
+  padding:15px 0px;
+  z-index: 100;
+}
+
+.logo{
+  height: 80px;
+}
+
+.nav{
+  height: 80px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: large;
+  font-weight: 500;
+}
+
+.nav li{
+  margin:auto;
+}

@@ -10,6 +10,9 @@ function load_stylesheets(){
   wp_register_style("main", get_template_directory_uri()."/css/main.css", array(), false, "all");
   wp_enqueue_style("main");
 
+  wp_register_style("navbar", get_template_directory_uri()."/css/navbar.css", array(), false, "all");
+  wp_enqueue_style("navbar");
+
   wp_register_style("frontpage", get_template_directory_uri()."/css/front-page.css", array(), false, "all");
   wp_enqueue_style("frontpage");
 
@@ -21,6 +24,9 @@ function load_stylesheets(){
 
   wp_register_style("contact", get_template_directory_uri()."/css/contact.css", array(), false, "all");
   wp_enqueue_style("contact");
+
+  wp_register_style("ourwebinars", get_template_directory_uri()."/css/ourwebinars.css", array(), false, "all");
+  wp_enqueue_style("ourwebinars");
 }
 add_action("wp_enqueue_scripts", "load_stylesheets");
 
