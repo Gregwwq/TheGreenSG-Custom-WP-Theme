@@ -19,14 +19,17 @@ function load_stylesheets(){
   wp_register_style("aboutus", get_template_directory_uri()."/css/about-us.css", array(), false, "all");
   wp_enqueue_style("aboutus");
 
-  wp_register_style("blog", get_template_directory_uri()."/css/blog.css", array(), false, "all");
-  wp_enqueue_style("blog");
-
   wp_register_style("contact", get_template_directory_uri()."/css/contact.css", array(), false, "all");
   wp_enqueue_style("contact");
 
   wp_register_style("ourwebinars", get_template_directory_uri()."/css/ourwebinars.css", array(), false, "all");
   wp_enqueue_style("ourwebinars");
+
+  wp_register_style("community", get_template_directory_uri()."/css/community-act.css", array(), false, "all");
+  wp_enqueue_style("community");
+
+  wp_register_style("youth", get_template_directory_uri()."/css/youth-act.css", array(), false, "all");
+  wp_enqueue_style("youth");
 }
 add_action("wp_enqueue_scripts", "load_stylesheets");
 

@@ -22,9 +22,9 @@
             <div class="col-12">GREEN & SUSTAINABLE SINGAPORE</div>
           </div>
         </div>
-        <div class="change-btn-wrap">
+        <!-- <div class="change-btn-wrap">
           <button class="change-btn" type="button">JOIN US IN CHANGE</button>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>

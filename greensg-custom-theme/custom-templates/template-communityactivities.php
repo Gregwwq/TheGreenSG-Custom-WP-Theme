@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Blog
+Template Name: Community Activities
 */
 ?>
 
@@ -12,7 +12,7 @@ Template Name: Blog
   <!-- NAVIGATION BAR (WP) -->
   <?php get_template_part("custom-sections/section", "navbar"); ?>
 
-  <div>This is the blog page</div>
+  
 
   <!--END CODE-->
 </body>

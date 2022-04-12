@@ -149,7 +149,7 @@ section{
 
 /* SLANT DIVS */
 .contents-wrapper{
-  height: 50%;
+  height: 50vh;
   background-attachment: fixed;
   background-size: contain;
   margin-bottom: 1rem;
@@ -188,6 +188,7 @@ section{
   margin-bottom: auto;
   margin-top: auto;
   margin-left: 3em;
+  text-align: center;
 }
 
 .details-left h1{
@@ -210,6 +211,7 @@ section{
   margin-bottom: auto;
   margin-top: auto;
   margin-right: 3em;
+  text-align: center;
 }
 
 .details-right h1{
