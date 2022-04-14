@@ -1,2 +1,8 @@
 /* CUSTOM CSS FOR THE YOUTHS ACTIVITIES TEMPLATE */
 
+.test{
+  width:100vw;
+  height:300px;
+  position:absolute;
+  background-color: blue;
+}
