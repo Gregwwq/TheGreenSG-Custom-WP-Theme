@@ -38,6 +38,8 @@ header{
   padding-right:1rem !important;
   padding-top:0.1rem !important;
   padding-bottom:0.1rem !important;
+  width:15rem;
+  text-align: left;
 }
 
 .nav li:hover > ul{
@@ -48,4 +50,11 @@ header{
   text-align: center;
   padding-top:0.2rem;
   padding-bottom:0.2rem;
+  width:fit-content;
+  height: fit-content;
+}
+
+.nav li ul li a{
+  font-size:medium;
+  text-align:left;
 }
