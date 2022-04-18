@@ -1,8 +1,85 @@
 /* CUSTOM CSS FOR THE YOUTHS ACTIVITIES TEMPLATE */
 
-.test{
-  width:100vw;
-  height:300px;
-  position:absolute;
-  background-color: blue;
+.youth-act-intro{
+  color:black;
+  background-color: #f3f5f7;
+  width:100%;
+  height:fit-content;
+  padding-top: 10vh;
+  padding-bottom: 15vh;
+}
+
+.img-fluid{
+  border-radius: 15px;
+}
+
+.youth-act-container{
+  padding: 0 70px;
+}
+
+.single-event-part{
+  position: relative;
+  z-index: 1;
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d9e1e9;
+  box-shadow: none;
+  padding: 20px 30px 10px;
+  text-align: center;
+
+}
+
+.single-activity-img img{
+  height: 40px;
+}
+
+.youth-act-container-inner{
+  padding-bottom: 90px;
+}
+
+.single-activity-list {
+  background-color: #c38ff7;
+  margin-bottom: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.activity-img{
+  position: absolute;
+  right: 59px;
+  height: 500px;
+  width: 500px;
+}
+
+.activity-date{
+  border: 1px solid #b373f2;
+  background-color: #b373f2;
+  color: #fff;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 30px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activity-date span{
+  font-size: 19px;
+  display: block;
+  font-weight: 400;
+}
+
+.activity-content{
+  color: #fff;
+  padding-left: 20px
 }
