@@ -11,7 +11,7 @@ Template Name: Community Activities
 
   <!-- NAVIGATION BAR (WP) -->
   <?php get_template_part("custom-sections/section", "navbar"); ?>
-
+  
   
 
   <!--END CODE-->
