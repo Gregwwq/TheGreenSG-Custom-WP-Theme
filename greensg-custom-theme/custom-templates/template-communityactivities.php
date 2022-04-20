@@ -38,7 +38,7 @@ A special thanks to @sgpools for supporting the event.
 Thank you to the various Secondary Schools, Jurong Spring Division, People’s Association and @tasekjurong for the support as well.</p>
       </div>
       <div class="col-md-5">
-      <img class="webinar-img" height ="500px" width="500px" src="<?php echo get_template_directory_uri(); ?>/img/community.jpg">
+      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="<?php echo get_template_directory_uri(); ?>/img/community.jpg" role="img">
 
       </div>
     </div>
@@ -51,7 +51,7 @@ Thank you to the various Secondary Schools, Jurong Spring Division, People’s A
         <p class="lead">Type in the description of the community activity</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="<?php echo get_template_directory_uri(); ?>/img/community.jpg" role="img">
 
       </div>
     </div>
@@ -64,7 +64,7 @@ Thank you to the various Secondary Schools, Jurong Spring Division, People’s A
         <p class="lead">Type in the description of the community activity</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">
 
       </div>
     </div>
