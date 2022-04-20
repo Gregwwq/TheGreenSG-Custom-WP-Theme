@@ -20,7 +20,7 @@ Template Name: Youth Activities
       Youth Activities
     </div> <br>
     <div class="intro-content">
-      Here are some of the activities our Youths have participated in. Feel free to take a look aorund
+      Here are some of the activities our Youths have participated in. Feel free to take a look around
     </div>
   </div>
 
