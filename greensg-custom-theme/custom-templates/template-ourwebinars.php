@@ -36,7 +36,7 @@ Template Name: Our Webinars
         </time>
       </div>
       <div class="postcard__bar"></div>
-      <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+      <div class="postcard__preview-txt">Excessive production and consumption of clothes is negatively harming our environment. While the fashion industry has to transform towards sustainability, rethinking how we are purchasing to fill up our wardrobe is also important.</div>
       <br>
       <br>
       <br>
@@ -59,7 +59,7 @@ Template Name: Our Webinars
         </time>
       </div>
       <div class="postcard__bar"></div>
-      <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+      <div class="postcard__preview-txt">The workforce that youths are entereing into is changine. Amidst growing concerns over climate change and the environment, companies are rethinking how they do buisness, and new jobs in sustainabiility are being created to tap on emerging opportunities.</div>
       <br>
       <br>
       <br>
