@@ -21,6 +21,7 @@ Template Name: Community Activities
       These are the community activities that The GreenSG has organized. Everyone is welcomed to sign up and attend these events and gain new insight into how to be more environmentally sustainable.
     </div>
   </div>
+  
   <!--FEATURE DISPLAY-->
   <hr class="featurette-divider">
 
@@ -60,26 +61,16 @@ Template Name: Community Activities
 
   <hr class="featurette-divider">
 
-  <div class="row featurette">
-    <div class="col-md-7">
-      <h2 class="featurette-heading">Community Activity 3</h2>
-      <p class="lead">Type in the description of the community activity</p>
-    </div>
-    <div class="col-md-5">
-      <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-        <title>Placeholder</title>
-        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">
-
-    </div>
+<div class="row featurette">
+  <div class="col-md-7 order-md-2">
+    <h2 class="featurette-heading">Community Activity 2</h2>
+    <p class="lead">Type in the description of the community activity</p>
   </div>
+  <div class="col-md-5 order-md-1">
+    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="<?php echo get_template_directory_uri(); ?>/img/community.jpg" role="img">
 
-  <hr class="featurette-divider">
-
-  <!-- /END THE FEATURETTES -->
-
-  </div><!-- /.container -->
-
-
-  <!--END CODE-->
+  </div>
+</div>
 </body>
+
 <?php get_footer(); ?>
